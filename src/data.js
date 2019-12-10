@@ -1,32 +1,105 @@
-const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
+const brians = [
+  {
+    name: "C",
+    value: "C",
+    css:""
+  },
+  {
+    name: "+/-",
+    value: "",
+    css:""
+  },
+  {
+    name: "%",
+    value: "%",
+    css:""
+  },
+  {
+    name: "/",
+    value: "/",
+    css:""
+  },
+  {
+    name: "7",
+    value: "7",
+    css:""
+  },
+  {
+    name: "8",
+    value: "8",
+    css:""
+  },
+  {
+    name: "9",
+    value: "9",
+    css:""
+  },
+  {
+    name: "X",
+    value: "*",
+    css:""
+  },
+  {
+    name: "4",
+    value: "4",
+    css:""
+  },
+  {
+    name: "5",
+    value: "5",
+    css:""
+  },
+  {
+    name: "6",
+    value: "6",
+    css:""
+  },
+  {
+    name: "-",
+    value: "-",
+    css:""
+  },
+  {
+    name: "1",
+    value: "1",
+    css:""
+  },
+  {
+    name: "2",
+    value: "2",
+    css:""
+  },
+  {
+    name: "3",
+    value: "3",
+    css:""
+  },
+  {
+    name: "+",
+    value: "+",
+    css:""
+  },
+  {
+    name: "0",
+    value: "0",
+    css:""
+  },
+  {
+    name: ".",
+    value: ".",
+    css:""
+  },
+  {
+    name: "=",
+    value: "=",
+    css:""
+  },
 
-const operators = [
-  {
-    char: "/",
-    value: "/"
-  },
-  {
-    char: "x",
-    value: "*"
-  },
-  {
-    char: "-",
-    value: "-"
-  },
-  {
-    char: "+",
-    value: "+"
-  },
-  {
-    char: "=",
-    value: "="
-  }
-];
 
-const specials = ["C", "+/-", "%"];
+
+
+]
 
 export default {
-  numbers,
-  operators,
-  specials
+  brians
 }
