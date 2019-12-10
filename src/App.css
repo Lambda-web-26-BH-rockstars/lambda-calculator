@@ -21,10 +21,12 @@
     font-size: 5.0rem;
   }
 
-  .button {
-      width: 25%;
-  }
+.button {
+    width: 25%;
+    border-radius: 60px;
+}
 
-  .button-zero {
-      width: 50%;
-  }
+.button:nth-last-of-type(3){
+    width: 50%;
+    border-radius: 60px;
+}
