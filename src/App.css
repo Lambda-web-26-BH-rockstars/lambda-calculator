@@ -30,3 +30,15 @@
     width: 50%;
     border-radius: 60px;
 }
+
+.operator {
+    background-color: lightblue;
+}
+
+.special {
+    background-color: dodgerblue;
+}
+
+.number {
+    background-color: steelblue;
+}

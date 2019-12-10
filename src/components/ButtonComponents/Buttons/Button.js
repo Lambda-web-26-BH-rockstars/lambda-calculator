@@ -6,7 +6,7 @@ const Button = (bananaButton) => {
   return (
     <button 
       key={bananaButton.id}
-      className="button"
+      className={`button ${bananaButton.buttonCSS}`}
       onClick={
         () => bananaButton.clickHandler(bananaButton.buttonName)
       }

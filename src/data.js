@@ -1,103 +1,80 @@
 const brians = [
   {
     name: "C",
-    value: "C",
-    css:""
+    css:"special"
   },
   {
     name: "+/-",
-    value: "",
-    css:""
+    css:"special"
   },
   {
     name: "%",
-    value: "%",
-    css:""
+    css:"special"
   },
   {
     name: "/",
-    value: "/",
-    css:""
+    css:"operator"
   },
   {
     name: "7",
-    value: "7",
-    css:""
+    css:"number"
   },
   {
     name: "8",
-    value: "8",
-    css:""
+    css:"number"
   },
   {
     name: "9",
-    value: "9",
-    css:""
+    css:"number"
   },
   {
     name: "X",
-    value: "*",
-    css:""
+    css:"operator"
   },
   {
     name: "4",
-    value: "4",
-    css:""
+    css:"number"
   },
   {
     name: "5",
-    value: "5",
-    css:""
+    css:"number"
   },
   {
     name: "6",
-    value: "6",
-    css:""
+    css:"number"
   },
   {
     name: "-",
-    value: "-",
-    css:""
+    css:"operator"
   },
   {
     name: "1",
-    value: "1",
-    css:""
+    css:"number"
   },
   {
     name: "2",
-    value: "2",
-    css:""
+    css:"number"
   },
   {
     name: "3",
-    value: "3",
-    css:""
+    css:"number"
   },
   {
     name: "+",
-    value: "+",
-    css:""
+    css:"operator"
   },
   {
     name: "0",
-    value: "0",
-    css:""
+    css:"number"
   },
   {
     name: ".",
-    value: ".",
-    css:""
+    css:"number"
   },
   {
     name: "=",
-    value: "=",
-    css:""
+    css:"operator"
   },
-
-
-
-
 ]
 
 export default {
