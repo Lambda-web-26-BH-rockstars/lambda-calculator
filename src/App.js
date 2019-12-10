@@ -16,6 +16,33 @@ function App() {
     setDisplay(buttonName)
   }
 
+  let buttonDisplayHell = (x, i) => {
+    console.log(x)
+    {
+      if(i === 0){
+      return (
+        <>
+          <OperatorButton
+            buttonName={data.operators[0].char}
+            clickHandler={specialClickHandler}
+          />
+          <NumberButton 
+            buttonName={x}
+            clickHandler={specialClickHandler}
+          />
+        </>
+      )
+      }else{
+        return (
+          <NumberButton 
+            buttonName={x}
+            clickHandler={specialClickHandler}
+          />
+        )
+      }
+    }
+  }
+
   return (
     <div className="container">
       <Logo />
@@ -34,18 +61,9 @@ function App() {
               )
             })
           }
-          <OperatorButton
-            buttonName={data.operators[0].char}
-            clickHandler={specialClickHandler}
-          />
           {
             data.numbers.map((x, i) => {
-              return (
-                <NumberButton 
-                  buttonName={x}
-                  clickHandler={specialClickHandler}
-                />
-              )
+                return buttonDisplayHell(x, i)
             })
           }
         </section>
