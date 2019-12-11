@@ -1,32 +1,82 @@
-// STEP 1 - Get the modules here exported before building out your components
-// Don't worry about bringing all of these into the same file.
-// Export them as necessary and import each array into its appropriate
-// file. No real tricks here just be aware of what is in each array
-// and how you'll access the data.
+const brians = [
+  {
+    name: "C",
+    css:"special"
+  },
+  {
+    name: "+/-",
+    css:"special"
+  },
+  {
+    name: "%",
+    css:"special"
+  },
+  {
+    name: "/",
+    css:"operator"
+  },
+  {
+    name: "7",
+    css:"number"
+  },
+  {
+    name: "8",
+    css:"number"
+  },
+  {
+    name: "9",
+    css:"number"
+  },
+  {
+    name: "X",
+    css:"operator"
+  },
+  {
+    name: "4",
+    css:"number"
+  },
+  {
+    name: "5",
+    css:"number"
+  },
+  {
+    name: "6",
+    css:"number"
+  },
+  {
+    name: "-",
+    css:"operator"
+  },
+  {
+    name: "1",
+    css:"number"
+  },
+  {
+    name: "2",
+    css:"number"
+  },
+  {
+    name: "3",
+    css:"number"
+  },
+  {
+    name: "+",
+    css:"operator"
+  },
+  {
+    name: "0",
+    css:"number"
+  },
+  {
+    name: ".",
+    css:"number"
+  },
+  {
+    name: "=",
+    css:"operator"
+  },
+]
 
-const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "."];
-
-const operators = [
-  {
-    char: "/",
-    value: "/"
-  },
-  {
-    char: "x",
-    value: "*"
-  },
-  {
-    char: "-",
-    value: "-"
-  },
-  {
-    char: "+",
-    value: "+"
-  },
-  {
-    char: "=",
-    value: "="
-  }
-];
-
-const specials = ["C", "+/-", "%"];
+export default {
+  brians
+}

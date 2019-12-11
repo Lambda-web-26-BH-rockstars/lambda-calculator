@@ -1,5 +1,9 @@
 import React from "react";
 
-const Display = () => {
-  return <div className="display">{/* Display any props data here */}</div>;
+const Display = (infernalProps) => {
+  return <div className="display">
+    {infernalProps.horribleDisplayDefaultedToZero}
+    </div>;
 };
+
+export default Display

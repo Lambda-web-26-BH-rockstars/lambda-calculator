@@ -1,3 +1,16 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+}
+
 .container {
     background-color: #c00025;
     width: 100%;
@@ -20,3 +33,25 @@
     padding-right: 8%;
     font-size: 5.0rem;
   }
+
+.button {
+    width: 25%;
+    border-radius: 60px;
+}
+
+.button:nth-last-of-type(3){
+    width: 50%;
+    border-radius: 60px;
+}
+
+.operator {
+    background-color: lightblue;
+}
+
+.special {
+    background-color: dodgerblue;
+}
+
+.number {
+    background-color: steelblue;
+}
